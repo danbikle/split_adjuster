@@ -1,0 +1,26 @@
+This file created by ./cr_upd_cp.bash
+UPDATE ydata SET closing_price=closing_price*3 WHERE tkr=:DD: AND ydate>:1979-06-28:;
+UPDATE ydata SET closing_price=closing_price*3 WHERE tkr=:DD: AND ydate>:1990-01-19:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:DD: AND ydate>:1997-06-12:;
+UPDATE ydata SET closing_price=closing_price*103/100 WHERE tkr=:DIS: AND ydate>:1962-12-17:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:DIS: AND ydate>:1967-11-15:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:DIS: AND ydate>:1971-02-26:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:DIS: AND ydate>:1973-01-15:;
+UPDATE ydata SET closing_price=closing_price*4 WHERE tkr=:DIS: AND ydate>:1986-03-05:;
+UPDATE ydata SET closing_price=closing_price*4 WHERE tkr=:DIS: AND ydate>:1992-05-15:;
+UPDATE ydata SET closing_price=closing_price*3 WHERE tkr=:DIS: AND ydate>:1998-07-09:;
+UPDATE ydata SET closing_price=closing_price*5/4 WHERE tkr=:IBM: AND ydate>:1964-05-15:;
+UPDATE ydata SET closing_price=closing_price*3/2 WHERE tkr=:IBM: AND ydate>:1966-05-17:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:IBM: AND ydate>:1968-04-22:;
+UPDATE ydata SET closing_price=closing_price*5/4 WHERE tkr=:IBM: AND ydate>:1973-05-25:;
+UPDATE ydata SET closing_price=closing_price*4 WHERE tkr=:IBM: AND ydate>:1979-05-31:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:IBM: AND ydate>:1997-05-27:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:IBM: AND ydate>:1999-05-26:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:KO: AND ydate>:1965-02-18:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:KO: AND ydate>:1968-05-31:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:KO: AND ydate>:1977-05-31:;
+UPDATE ydata SET closing_price=closing_price*3 WHERE tkr=:KO: AND ydate>:1986-06-30:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:KO: AND ydate>:1990-05-11:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:KO: AND ydate>:1992-05-11:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:KO: AND ydate>:1996-05-10:;
+UPDATE ydata SET closing_price=closing_price*2 WHERE tkr=:KO: AND ydate>:2012-08-10:;
