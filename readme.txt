@@ -31,8 +31,8 @@ AND ydate > '1999-05-27';
 Although the above syntax is simple, it is a chore to type if
 my data contains hundreds of tickers and and several thousand splits.
 
-A way to simplify this chore is to ask the DBA to type only two pieces
-of information into a CSV file: ticker, and split date.
+A way to simplify this chore is to ask the DBA to type only three pieces
+of information into a CSV file: ticker, split date, and split ratio.
 
 Once that chore is done, the scripts in this repo could be used to transform
 that two-column CSV file into a series of several thousand UPDATE statements
